@@ -22,19 +22,58 @@
 
   <body>
 
-    <header>
+    <header class='bg-header'>
+
       <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-clear">
+        <img src="https://picsum.photos/150/50?greyscale" class="img-fluid" alt="Placeholder">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav align-content-end">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link" href="#">Disabled</a>
+          </div>
+        </div>
+      </nav>
 
       <div class="container-fluid">
         <!-- Header Main -->
-        <div class="row">
-          <div class="col-12 col-md-6 order-2 order-md-1"></div>
-          <div class="col-12 col-md-6 order-2 order-md-1"></div>
+        <div class="row header-row">
+          <!--1st Header Column-->
+          <div class="col-12 col-md-6 order-2 order-md-1 p-3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, iure porro. Mollitia dolorum iste libero voluptatum quam optio ratione temporibus molestiae quia minus ex officia quaerat ea, nisi quasi excepturi.</p>
+            <button class="btn btn-lg btn-block btn-outline-primary">Not Just a Button</button>
+          </div>
+          <!-- 2nd Header Column -->
+          <div class="col-12 col-md-6 order-1 order-md-2 p-3 text-center embed-responsive">
+            <div class="p-3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZOzzRlc_qho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+            </div>
+          </div>
         </div>
-
       </div>    
 
     </header>
+
+    <main>
+
+      <section class="container-fluid">
+        <div class="row justify-content-around">
+
+          <div class="col-4 col-sm-12">
+            
+          </div>
+          <div class="col-4 col-sm-12"></div>
+          <div class="col-4 col-sm-12"></div>
+
+        </div>
+      </section>
+
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
