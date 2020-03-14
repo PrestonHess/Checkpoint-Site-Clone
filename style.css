@@ -12,6 +12,10 @@
   background-size: cover;
 } 
 
+.header-row {
+  height: inherit;
+}
+
 * {
   outline: 1px solid red;
 }
