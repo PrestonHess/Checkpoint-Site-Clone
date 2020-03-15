@@ -12,6 +12,10 @@
   background-size: cover;
 } 
 
+.bg-grad {
+  background-image: linear-gradient(to right, rgb(75, 100, 100) , rgb(75, 25, 25));
+}
+
 /* * {
   outline: 1px solid red;
 } */
